@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+	-webkit-appearance: none;
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 8px;
+	background-color: rgba(100, 100, 100, 0.5);
+	-webkit-box-shadow: 0 0 1px #babac0;
+}
+
+body {
+	min-width: 350px; 
+	width: auto !important; 
+	width: 350px; 
+}
+.close-btn{
+	float: right;
+	border: 1px solid black;
+}
